@@ -1,0 +1,813 @@
+﻿<!DOCTYPE html>
+<!--[if IE 8]><html class="ie8 no-js" lang="en"><![endif]-->
+<!--[if IE 9]><html class="ie9 no-js" lang="en"><![endif]-->
+<!--[if !IE]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <title>nVadi - Responsive Functional Demo</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!-- start: META -->
+    <meta charset="utf-8" />
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content="IE=edge,IE=9,IE=8,chrome=1" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta content="Responsive Medical / Legal Information History" name="description" />
+    <meta content="nGenus, llc" name="author" />
+    <!-- end: META -->
+    <!-- start: MAIN CSS -->
+    <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700|Raleway:400,100,200,300,500,600,700,800,900/" />
+    <link type="text/css" rel="stylesheet" href="../../bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="../../bower_components/font-awesome/css/font-awesome.min.css" />
+    <link type="text/css" rel="stylesheet" href="assets/fonts/clip-font.min.css" />
+    <link type="text/css" rel="stylesheet" href="../../bower_components/iCheck/skins/all.css" />
+    <link type="text/css" rel="stylesheet" href="../../bower_components/perfect-scrollbar/css/perfect-scrollbar.min.css" />
+    <link type="text/css" rel="stylesheet" href="../../bower_components/sweetalert/dist/sweetalert.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/main.min.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/main-responsive.min.css" />
+    <link type="text/css" rel="stylesheet" media="print" href="assets/css/print.min.css" />
+    <link type="text/css" rel="stylesheet" id="skin_color" href="assets/css/theme/light.min.css" />
+    <!-- end: MAIN CSS -->
+    <!-- start: CSS REQUIRED FOR THIS PAGE ONLY -->
+    <!-- end: CSS REQUIRED FOR THIS PAGE ONLY -->
+
+</head>
+
+<body>
+
+    <!-- ***************************************** -->
+    <!-- start: ****** STATIC FUNCTIONALITY ****** -->
+    <!-- ***************************************** -->
+    <!-- start: HEADER -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <!-- start: TOP NAVIGATION CONTAINER -->
+        <div class="container">
+            <div class="navbar-header">
+                <!-- start: RESPONSIVE MENU TOGGLER -->
+                <button data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+                    <span class="clip-list-2"></span>
+                </button>
+                <!-- end: RESPONSIVE MENU TOGGLER -->
+                <!-- start: LOGO -->
+                <a class="navbar-brand" href="_Dashboard.html">
+                    nVādi <i class="clip-spinner-4"></i>
+
+                </a>
+                <!-- end: LOGO -->
+            </div>
+            <div class="navbar-tools">
+                <!-- start: TOP NAVIGATION MENU -->
+                <ul class="nav navbar-right">
+                    <!-- start: TO-DO DROPDOWN -->
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" data-close-others="true"
+                           href="#">
+                            <i class="clip-list-5"></i>
+                            <span class="badge">4</span>
+                        </a>
+                        <ul class="dropdown-menu todo">
+                            <li>
+                                <span class="dropdown-menu-title">You have 4 reminders</span>
+                            </li>
+                            <li>
+                                <div class="drop-down-wrapper">
+                                    <ul>
+                                        <li>
+                                            <a class="todo-actions" href="javascript:void(0)">
+                                                <i class="clip-alarm"></i>
+                                                <span class="desc">Take Medication</span>
+                                                <span class="label label-danger">5:30 PM</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="todo-actions" href="javascript:void(0)">
+                                                <i class="clip-alarm"></i>
+                                                <span class="desc">Call Dr. Rankine</span>
+                                                <span class="label label-primary">Tomorrow</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="todo-actions" href="javascript:void(0)">
+                                                <i class="clip-calendar"></i>
+                                                <span class="desc" style="opacity: 1; text-decoration: none;">
+                                                    Oncologist Appointment
+                                                </span>
+                                                <span class="label label-warning" style="opacity: 1;">Thursday</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="todo-actions" href="javascript:void(0)">
+                                                <i class="clip-calendar"></i>
+                                                <span class="desc" style="opacity: 1; text-decoration: none;">
+                                                    Eye Exam
+                                                </span>
+                                                <span class="label label-primary" style="opacity: 1;">Next Week</span>
+                                            </a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="view-all">
+                                <a href="javascript:void(0)">
+                                    See all reminders <span class="clip-info"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- end: TO-DO DROPDOWN-->
+                    <!-- start: MESSAGE DROPDOWN -->
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-close-others="true" data-hover="dropdown" data-toggle="dropdown" href="#">
+                            <i class="fa fa-envelope"></i>
+                            <span class="badge">3</span>
+                        </a>
+                        <ul class="dropdown-menu posts">
+                            <li>
+                                <span class="dropdown-menu-title">You have 3 new messages</span>
+                            </li>
+                            <li>
+                                <div class="drop-down-wrapper">
+                                    <ul>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <div class="clearfix">
+                                                    <div class="thread-image">
+                                                        <img src="assets/images/Walgreens.png" class=" messages-item-avatar" style="width:50px;" />
+                                                    </div>
+                                                    <div class="thread-content">
+                                                        <span class="author">Walgreens</span>
+                                                        <span class="preview">
+                                                            <!-- message preview body -->
+                                                            Save $5.00 On Any ONE (1) SYSTANE® HYDRATION Preservative-Free Lubricant Eye Drops ...
+                                                        </span>
+                                                        <span class="time">Just Now</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <div class="clearfix">
+                                                    <div class="thread-image">
+                                                        <img src="assets/images/NexletolLogo.png" class=" messages-item-avatar" style="width:50px; height:50px;" />
+                                                    </div>
+                                                    <div class="thread-content">
+                                                        <span class="author">NEXLETOL</span>
+                                                        <span class="preview">
+                                                            <!-- message preview body -->
+                                                            NEXLETOL is a prescription medicine used, along with diet and other lipid-lowering medicines...
+                                                        </span>
+                                                        <span class="time">2 mins</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <div class="clearfix">
+                                                    <div class="thread-image">
+                                                        <img alt="" src="./assets/images/avatar-3.jpg">
+                                                    </div>
+                                                    <div class="thread-content">
+                                                        <span class="author">Steven Thompson</span>
+                                                        <span class="preview">
+                                                            <!-- message preview body -->
+                                                            I have your blood work results and I would like to schedule a Zoom call ...
+                                                        </span>
+                                                        <span class="time">8 hrs</span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="view-all">
+                                <a href="_myMessages.html">
+                                    See all messages <i class="fa fa-arrow-circle-o-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- end: MESSAGE DROPDOWN -->
+                    <!-- start: USER DROPDOWN -->
+                    <li class="dropdown current-user">
+                        <a data-toggle="dropdown" data-hover="dropdown" class="dropdown-toggle" data-close-others="true"
+                           href="#">
+                            <img src="assets/images/avatar-1-small.png" class="circle-img" alt="">
+                            <span class="username">Peter Clark</span>
+                            <i class="clip-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="_myProfile.html">
+                                    <i class="clip-user-2"></i> &nbsp;My Profile
+                                </a>
+                            </li>
+                            <li>
+                                <a href="_myCalendar.html">
+                                    <i class="clip-calendar"></i> &nbsp;My Calendar
+                                </a>
+                            <li>
+                                <a href="_myMessages.html">
+                                    <i class="clip-bubble-4"></i> &nbsp;My Messages (3)
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="_LockScreen.html">
+                                    <i class="clip-locked"></i> &nbsp;Lock Screen
+                                </a>
+                            </li>
+                            <li>
+                                <a href="_Login.html">
+                                    <i class="clip-exit"></i> &nbsp;Log Out
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- end: USER DROPDOWN -->
+                    <!-- start: PAGE SIDEBAR TOGGLE -->
+                    <li>
+                        <a class="sb-toggle" href="#"><i class="fa fa-outdent"></i></a>
+                    </li>
+                    <!-- end: PAGE SIDEBAR TOGGLE -->
+                </ul>
+                <!-- end: TOP NAVIGATION MENU -->
+            </div>
+        </div>
+        <!-- end: TOP NAVIGATION CONTAINER -->
+    </div>
+    <!-- end: HEADER -->
+    <!-- start: MAIN CONTAINER -->
+    <div class="main-container">
+        <div class="navbar-content">
+            <!-- start: SIDEBAR -->
+            <div class="main-navigation navbar-collapse collapse">
+                <!-- start: MAIN MENU TOGGLER BUTTON -->
+                <div class="navigation-toggler">
+                    <i class="clip-chevron-left"></i>
+                    <i class="clip-chevron-right"></i>
+                </div>
+                <!-- end: MAIN MENU TOGGLER BUTTON -->
+                <!-- start: MAIN NAVIGATION MENU -->
+
+                <ul class="main-navigation-menu">
+                    <!-- ***DO NOT REMOVE THIS ITEM -->
+                    <li>
+                        <!--active open-->
+                        <a href="_Dashboard.html">
+                            <i class="clip-home-3"></i>
+                            <span class="title"> Dashboard </span>
+                            <span class="selected"></span>
+                        </a>
+                    </li>
+
+                    <!-- start: CUSTOM MENU ITEMS -->
+                    <!-- Medical History -->
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="clip-health"></i>
+                            <span class="title">Medical History </span><i class="icon-arrow"></i>
+                            <span class="selected"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="_MedHistory-OfficeVisit.html">
+                                    <span class="title">Office Visit</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="_MedHistory-Imaging.html">
+                                    <span class="title">Imaging</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="_MedHistory-Procedures.html">
+                                    <span class="title">Procedures</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="_MedHistory-Surgeries.html">
+                                    <span class="title">Surgeries</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="_MedHistory-Psychiatric.html">
+                                    <span class="title">Psychiatric</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="_MedHistory-Dental.html">
+                                    <span class="title">Dental</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="_MedHistory-Vision.html">
+                                    <span class="title">Vision</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="_MedicalHistory.html">
+                                    <span class="title">All</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Contacts -->
+                    <li>
+                        <a href="_Contacts.html">
+                            <i class="clip-user"></i>
+                            <span class="title">Contacts </span>
+                            <span class="selected"></span>
+                        </a>
+                    </li>
+
+                    <!-- Insurance -->
+                    <li>
+                        <a href="_Insurance.html">
+                            <i class="glyphicon glyphicon-credit-card"></i>
+                            <span class="title">Insurance </span><span class="badge badge-new">New</span>
+                            <span class="selected"></span>
+                        </a>
+                    </li>
+
+                    <!-- Pharmacy -->
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="clip-inject"></i>
+                            <span class="title">Pharmacy </span><i class="icon-arrow"></i>
+                            <span class="selected"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="_Pharmacy.html">
+                                    <span class="title">Your Pharmacy </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <span class="title">Need Refill </span>
+                                    <span class="badge badge-yellow">1</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a>
+                                    <span class="title">New Rx </span>
+                                    <span class="badge badge-new">2</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Physicians -->
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="fa fa-stethoscope"></i>
+                            <span class="title">Physicians </span><i class="icon-arrow"></i>
+                            <span class="selected"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="_Doctors_PCP.html">
+                                    <span class="title">Primary Care</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="_Doctors_Specialist.html">
+                                    <span class="title">Specialists</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="_Doctors_Pediatrician.html">
+                                    <span class="title">Pediatrician</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="_Doctors_Dental.html">
+                                    <span class="title">Dental</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="_Doctors_Optical.html">
+                                    <span class="title">Optical</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="_Doctors_Others.html">
+                                    <span class="title">Other</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </li>
+
+                    <!-- nQalert -->
+                    <li>
+                        <a href="_nQalert.html">
+                            <i class="glyphicon glyphicon-qrcode"></i>
+                             <span class="title">nQalert </span><span class="badge badge-new">New</span>
+                            <span class="selected"></span>
+                        </a>
+                    </li>
+
+                    <!-- Health Time-Line -->
+                    <li>
+                        <a href="_myTimeLine.html">
+                            <i class="glyphicon glyphicon-time"></i>
+                            <span class="title">nTime </span><span class="badge badge-new">New</span>
+                            <span class="selected"></span>
+                        </a>
+                    </li>
+
+                    <!-- File Management -->
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="glyphicon glyphicon-folder-open"></i>
+                            <span class="title">Your Files </span><i class="icon-arrow"></i>
+                            <span class="selected"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a href="_ImageGalary.html">
+                                    <span class="title">Images</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="_FileManager.html">
+                                    <span class="title">Files</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="_ImageViewer.html">
+                                    <span class="title">Image Analyzer</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- User Account -->
+                    <li>
+                        <a href="javascript:void(0)">
+                            <i class="clip-cube"></i>
+                            <span class="title">User Account </span><i class="icon-arrow"></i>
+                            <span class="selected"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+
+                                <a href="_myCalendar.html">
+                                    <i class="clip-calendar"></i>
+                                    <span class="title">My Calendar</span>
+                                </a>
+                            </li>
+                            <li>
+
+                                <a href="_myMessages.html">
+                                    <i class="clip-bubble-2"></i>
+                                    <span class="title">my Messages</span>
+                                </a>
+                            </li>
+                            <li>
+
+                                <a href="_myReminders.html">
+                                    <i class="glyphicon glyphicon-tasks"></i>
+                                    <span class="title">My Reminders</span>
+                                </a>
+                            </li>
+                            <li>
+
+                                <a href="_myProfile.html">
+                                    <i class="glyphicon glyphicon-info-sign"></i>
+                                    <span class="title">Account Profile</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Settings -->
+                    <li>
+                        <a href="_Settings.html">
+                            <i class="clip-settings"></i>
+                            <span class="title">Your Settings </span>
+                        </a>
+                    </li>
+
+
+                    <!-- end: CUSTOM MENU ITEMS -->
+                </ul>
+
+                <!-- end: MAIN NAVIGATION MENU -->
+            </div>
+            <!-- end: SIDEBAR -->
+        </div>
+
+        <!-- ***************************************** -->
+        <!-- end: ******* STATIC FUNCTIONALITY ******* -->
+        <!-- ***************************************** -->
+        <!-- start: PAGE -->
+        <div class="main-content">
+            <!-- start: PANEL CONFIGURATION MODAL FORM -->
+            <div class="modal fade" id="panel-config" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                &times;
+                            </button>
+                            <h4 class="modal-title">Panel Configuration</h4>
+                        </div>
+                        <div class="modal-body">
+                            Here will be a configuration form
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                                Close
+                            </button>
+                            <button type="button" class="btn btn-primary">
+                                Save changes
+                            </button>
+                        </div>
+                    </div>
+                    <!-- /.modal-content -->
+                </div>
+                <!-- /.modal-dialog -->
+            </div>
+            <!-- /.modal -->
+            <!-- end: SPANEL CONFIGURATION MODAL FORM -->
+            <div class="container">
+                <!-- start: PAGE HEADER -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <!-- start: STYLE SELECTOR BOX -->
+                        <div id="style_selector" class="hidden-xs close-style">
+                            <div id="style_selector_container" style="display:block">
+                                <div class="style-main-title">
+                                    Style Selector
+                                </div>
+                                <div class="box-title">
+                                    Choose Your Layout Style
+                                </div>
+                                <div class="input-box">
+                                    <div class="input">
+                                        <select name="layout">
+                                            <option value="default">Wide</option>
+                                            <option value="boxed">Boxed</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="box-title">
+                                    Choose Your Orientation
+                                </div>
+                                <div class="input-box">
+                                    <div class="input">
+                                        <select name="orientation">
+                                            <option value="default">Default</option>
+                                            <option value="rtl">RTL</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="box-title">
+                                    Choose Your Header Style
+                                </div>
+                                <div class="input-box">
+                                    <div class="input">
+                                        <select name="header">
+                                            <option value="fixed">Fixed</option>
+                                            <option value="default">Default</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="box-title">
+                                    Choose Your Footer Style
+                                </div>
+                                <div class="input-box">
+                                    <div class="input">
+                                        <select name="footer">
+                                            <option value="default">Default</option>
+                                            <option value="fixed">Fixed</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="box-title">
+                                    Backgrounds for Boxed Version
+                                </div>
+                                <div class="images boxed-patterns">
+                                    <a id="bg_style_1" href="#"><img alt="" src="assets/images/bg.png"></a>
+                                    <a id="bg_style_2" href="#"><img alt="" src="assets/images/bg_2.png"></a>
+                                    <a id="bg_style_3" href="#"><img alt="" src="assets/images/bg_3.png"></a>
+                                    <a id="bg_style_4" href="#"><img alt="" src="assets/images/bg_4.png"></a>
+                                    <a id="bg_style_5" href="#"><img alt="" src="assets/images/bg_5.png"></a>
+                                </div>
+                                <div class="box-title">
+                                    5 Predefined Color Schemes
+                                </div>
+                                <div class="images icons-color">
+                                    <a id="light" href="#"><img class="active" alt="" src="assets/images/lightgrey.png"></a>
+                                    <a id="dark" href="#"><img alt="" src="assets/images/darkgrey.png"></a>
+                                    <a id="black-and-white" href="#"><img alt="" src="assets/images/blackandwhite.png"></a>
+                                    <a id="navy" href="#"><img alt="" src="assets/images/navy.png"></a>
+                                    <a id="green" href="#"><img alt="" src="assets/images/green.png"></a>
+                                </div>
+                                <div style="height:25px;line-height:25px; text-align: center">
+                                    <a class="clear_style" href="#">
+                                        Clear Styles
+                                    </a>
+                                    <a class="save_style" href="#">
+                                        Save Styles
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="style-toggle open">
+                                <i class="fa fa-cog fa-spin"></i>
+                            </div>
+                        </div>
+                        <!-- end: STYLE SELECTOR BOX -->
+                        <!-- start: PAGE TITLE & BREADCRUMB -->
+                        <ol class="breadcrumb">
+                            <li>
+                                <i class="clip-grid-6"></i>
+                                <a href="#">
+                                    Dashboard
+                                </a>
+                            </li>
+                            <li class="active">
+                                Medical History
+                            </li>
+                            <li class="search-box">
+                                <form class="sidebar-search">
+                                    <div class="form-group">
+                                        <input type="text" placeholder="Start Searching...">
+                                        <button class="submit">
+                                            <i class="clip-search-3"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                            </li>
+                        </ol>
+                        <div class="page-header">
+                            <h1>Your Medical History <small>at a glance...</small></h1>
+                        </div>
+                        <!-- end: PAGE TITLE & BREADCRUMB -->
+                    </div>
+                </div>
+                <!-- end: PAGE HEADER -->
+                <!-- start: PAGE CONTENT -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <!--<div class="alert alert-info">
+                            Please try to re-size your browser window in order to see the tables in responsive mode.
+                        </div>-->
+                        <!-- start: RESPONSIVE TABLE PANEL -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <i class="fa fa-external-link-square"></i>Medical History for October, 2020
+                                <div class="panel-tools">
+                                    <a class="btn btn-xs btn-link panel-config" href="#panel-config" data-toggle="modal">
+                                        <i class="fa fa-wrench"></i>
+                                    </a>
+                                    <a class="btn btn-xs btn-link panel-refresh" href="#">
+                                        <i class="fa fa-refresh"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="panel-body">
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-hover" id="sample-table-1">
+                                        <thead>
+                                            <tr>
+                                                <th></th>
+                                                <th>Date of Service</th>
+                                                <th>Location</th>
+                                                <th>Service Type</th>
+                                                <th>Facility</th>
+                                                <th>Physician</th>
+                                                <th>Reason</th>
+                                                <th>Diagnosis</th>
+                                                <th>Treatment</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <!--<tr>
+                                                <td><img src="assets/images/hospital_3_48px.png" /></td>
+                                                <td>2/6/1992</td>
+                                                <td>CHATTANOOGA, TN</td>
+                                                <td>SURGERY</td>
+                                                <td><a href="https://goo.gl/maps/j4ePo8qhgUoiPXS1A" target="_blank">Erlanger Medical Center</a></td>
+                                                <td>Dr. Smith</td>
+                                                <td>Appendix removal</td>
+                                                <td>high white blood count</td>
+                                                <td>Laparoscopic surgery.</td>
+                                            </tr>-->
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end: RESPONSIVE TABLE PANEL -->
+                    </div>
+                </div>
+                <!-- end: PAGE CONTENT-->
+            </div>
+        </div>
+        <!-- end: PAGE -->
+    </div>
+    <!-- end: MAIN CONTAINER -->
+    <!-- start: FOOTER -->
+    <div class="footer-fixed">
+        <div class="footer">
+            &copy;
+            <script>
+                document.write(new Date().getFullYear())
+            </script> nVadi.com <i class="clip-spinner-4"></i>  -  an nGenus product
+        </div>
+        <div class="footer-items">
+            <span class="go-top"><i class="clip-chevron-up"></i></span>
+        </div>
+    </div>
+    <!-- end: FOOTER -->
+    <!-- start: RIGHT SIDEBAR -->
+    <div id="page-sidebar">
+        <a class="sidebar-toggler sb-toggle" href="#"><i class="fa fa-indent"></i></a>
+        <div class="sidebar-wrapper">
+            <div class="tab-pane" id="settings">
+                <h5 class="sidebar-title">General Settings</h5>
+                <ul class="media-list">
+                    <li class="media">
+                        <div class="checkbox sidebar-content">
+                            <label>
+                                <input type="checkbox" value="" class="green" checked="checked">
+                                Enable Notifications
+                            </label>
+                        </div>
+                    </li>
+                    <li class="media">
+                        <div class="checkbox sidebar-content">
+                            <label>
+                                <input type="checkbox" value="" class="green" checked="checked">
+                                Show your E-mail
+                            </label>
+                        </div>
+                    </li>
+                    <li class="media">
+                        <div class="checkbox sidebar-content">
+                            <label>
+                                <input type="checkbox" value="" class="green" checked="checked">
+                                E-mail Alerts
+                            </label>
+                        </div>
+                    </li>
+                    <li class="media">
+                        <div class="checkbox sidebar-content">
+                            <label>
+                                <input type="checkbox" value="" class="green">
+                                SMS Alerts
+                            </label>
+                        </div>
+                    </li>
+                </ul>
+                <div class="sidebar-content">
+                    <button class="btn btn-success">
+                        <i class="icon-settings"></i> Save Changes
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end: RIGHT SIDEBAR -->
+    <!-- start: MAIN JAVASCRIPTS -->
+    <!--[if lt IE 9]>
+            <script src="../../bower_components/respond/dest/respond.min.js"></script>
+            <script src="../../bower_components/Flot/excanvas.min.js"></script>
+            <script src="../../bower_components/jquery-1.x/dist/jquery.min.js"></script>
+            <![endif]-->
+    <!--[if gte IE 9]><!-->
+    <script type="text/javascript" src="../../bower_components/jquery/dist/jquery.min.js"></script>
+    <!--<![endif]-->
+    <script type="text/javascript" src="../../bower_components/jquery-ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../bower_components/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"></script>
+    <script type="text/javascript" src="../../bower_components/blockUI/jquery.blockUI.js"></script>
+    <script type="text/javascript" src="../../bower_components/iCheck/icheck.min.js"></script>
+    <script type="text/javascript" src="../../bower_components/perfect-scrollbar/js/min/perfect-scrollbar.jquery.min.js"></script>
+    <script type="text/javascript" src="../../bower_components/jquery.cookie/jquery.cookie.js"></script>
+    <script type="text/javascript" src="../../bower_components/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript" src="assets/js/min/main.min.js"></script>
+    <!-- end: MAIN JAVASCRIPTS -->
+    <!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+    <!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+
+    <script>
+        jQuery(document).ready(function () {
+            Main.init();
+        });
+    </script>
+
+</body>
+
+</html>
